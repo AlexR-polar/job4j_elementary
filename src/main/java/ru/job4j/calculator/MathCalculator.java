@@ -15,9 +15,9 @@ public class MathCalculator {
         return sum(first, second) + multiply(first, second) + difference(first, second) + division(first, second);
     }
 
-        public static void main(String[] args) {
-            System.out.println("Результаты расчетов равны: " + sumAndMultiply(10, 20));
-            System.out.println(difAndDiv(22, 33));
-            System.out.println(sumAll(16, 17));
-        }
+    public static void main(String[] args) {
+        System.out.println("Результаты расчетов равны: " + sumAndMultiply(10, 20));
+        System.out.println(difAndDiv(22, 33));
+        System.out.println(sumAll(16, 17));
     }
+}
