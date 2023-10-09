@@ -7,7 +7,7 @@ import static org.assertj.core.api.Assertions.*;
 class PointTest {
 
     @Test
-    void when10to43then2() {
+    void when10to43then4dot24() {
         double expected = 4.24;
         double out = Point.distance(1, 0, 4, 3);
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
